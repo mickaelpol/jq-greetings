@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Action Travaux Occitanie</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="test.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Cormorant:700|Expletus+Sans" rel="stylesheet">
+</head>
+<body>
+  <!-- barre de navigation -->
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="col-md-12 navbar navbar-default navbar-fixed-top">
+        <ul class="nav nav-pills navbar-left list-inline border">
+          <li><button onclick="" class="btn"><a  href="#">acceuil</a></button></li>
+          <li><button onclick="" class="btn"><a  href="#">offre</a></button></li>
+          <li><input class="recherche" type="text" placeholder="rechercher"/><button onclick="" class="btn">rechercher</button> </li>
+        </ul>
+        <ul class="nav nav-pills navbar-right list-inline border">
+          <li><button onclick="" class="btn"><a href="#">contact</a></button></li>
+          <li><button onclick="" class="btn"><a href="#">espaces artisans</a></button></li>
+          <li><button onclick="" class="btn"><a href="#">plan d'accés</a></button></li>
+          <li><button onclick="" class="btn"><a href="#">mentions légales</a></button></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <!-- fin barre de navigation -->
+
+  <!-- début header -->
+  <div class="container page-header">
+    <div class="row">
+      <div class="col-md-12 border">
+        <div class="col-md-3 ">
+          <img src="image/icone/logo.png" width="250" height="150" alt="logo action travaux occitanie" class="taille-logo"/>
+        </div>
+        <div class="col-md-9 text-uppercase text-center">
+          <h1 class="titre-1 bg-gris border">action travaux occitanie</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- fin du header -->
+
+  <!-- début body -->
+  <div class="container body">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="col-md-3"> <!-- image de profil -->
+          <img class="img-thumbnail img-responsive img-rounded center-block" src="image/photo de profil/photoprofil.jpg" width="200" height="150" alt="photo de profil">
+
+          <!-- présentation de l'entreprise -->
+
+          <div class="col-md-12 présentation text-center text-capitalize">
+            <p>cédric guy </p>
+            <p> gérant action travaux occitanie</p>
+            <p><span class="glyphicon glyphicon-earphone"></span>  06 82 13 20 92</p>
+            <p><a href="mailto:cedric.guy@action-travaux-occitanie.fr">
+              <span class="glyphicon glyphicon-envelope"></span></a>  action travaux occitanie
+            </p>
+          </div>
+        </div>
+        <div class="entreprise col-md-9 text-white border">
+          <h3 class="page-header text-center text-uppercase" id="clicker">présentation de l'entreprise</h3>
+          <div class="col-md-12">
+            <p class="text-justify text-center"><span id="caché"></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row entreprise border"><!-- début votre projet -->
+        <div class="col-md-12 text-white">
+          <h3 class="page-header text-center text-uppercase">votre projet</h3>
+          <div class="col-md-3"> <!-- logo votre projet -->
+            <img id="click2" src="image/icone/votre-projet.png" width="250" height="200" class="center-block img-responsive img-thumbnail" alt="logo projet">
+          </div>
+          <div class="col-md-9 text-justify text-capitalize text-white">
+          <p class="text-justify text-center"><span id="caché2"></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="row entreprise border"> <!-- début gestion administratvie -->
+          <div class="col-md-12  text-white">
+            <h3 class="page-header text-center text-uppercase">gestion administrative</h3>
+            <div class="col-md-3"> <!-- logo administration -->
+              <img id="click3" src="image/icone/gestion-administrative.jpg" width="250" height="200" class="center-block img-responsive img-thumbnail" alt="logo projet">
+            </div>
+            <div class="col-md-9 text-center text-justify">
+              <p id="caché3"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- fin du body -->
+
+        <div class="container-fluid">
+          <div class="row">
+            <footer class="col-md-12"> <!-- début footer -->
+              <div class="col-md-12 text-capitalize text-center text-white">
+                <p>action travaux occitanie © 2017 </p>
+              </div>
+            </footer> <!-- fin footer -->
+          </div>
+        </div>
+        <script src="jquery-3.1.1.js"></script>
+        <script src="testp.js"></script>
+      </body>
+      </html>
